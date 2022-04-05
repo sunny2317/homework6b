@@ -1,0 +1,168 @@
+
+
+/* Navigation Bar Rectangle */
+.rectangle{
+  position: absolute;
+  width: 100%;
+  margin-left: -8px;
+  margin-top: -10px;
+  height: 159px;
+  background:rgb(187, 0, 0);
+}
+
+
+/* Results and Home Page Rectangles*/
+.rectangle1{
+  width: 100%;
+  height: 40px;
+  box-shadow: 2px 2px 20px #888888;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
+  word-spacing: 100px;
+}
+
+/* Appointment Page Rectangles */
+.rectangle2{
+  width: 506px;
+  height: 144px;
+  box-shadow: 2px 2px 20px #888888;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.rectangle3{
+  width: 506px;
+  height: 144px;
+  box-shadow: 2px 2px 20px #888888;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Result Details Rectangles */
+
+.rectangle4{
+  width: 750px;
+  height: 300px;
+  box-shadow: 1px 1px 10px #888888;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 30px;
+  line-height: 50px;
+
+}
+
+
+alignright{
+  text-align: right;
+}
+
+
+redtext{
+  color: red;
+}
+
+greentext{
+  color: green;
+}
+
+/* Navigation Tabs */
+
+home{
+  font-size: 31px;
+  font-family: Helvetica;
+  color: white;
+  position: absolute;
+  right: 80px;
+  top: 57px;
+}
+
+appointments{
+  font-size: 31px;
+  font-family: Helvetica;
+  color: white;
+  position: absolute;
+  right: 180px;
+  top: 57px;
+}
+
+history{
+  font-size: 31px;
+  font-family: Helvetica;
+  color: white;
+  position: absolute;
+  right: 390px;
+  top: 57px;
+}
+
+results{
+  font-size: 31px;
+  font-family: Helvetica;
+  color: white;
+  position: absolute;
+  right: 510px;
+  top: 57px;
+}
+
+/**/
+
+/** Make Appointment page tables **/
+
+appointment{
+  top: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    top: 500px;
+}
+
+th, td { 
+    font-weight: bold;
+}
+
+/**/
+
+div1 {
+  font-size: 31px;
+  font-family: Helvetica;
+  color: white;
+  position: absolute;
+  left: 67px;
+  top: 38px;
+}
+
+div2 {
+  font-size: 31px;
+  font-family: Helvetica;
+  color: white;
+  position: absolute;
+  left: 67px;
+  top: 74px;
+}
+
+div3 {
+  font-size: 50px;
+  font-family: Helvetica;
+  position: absolute;
+  left: 154px;
+  top: 274px;
+}
+
+div4{
+  font-size: 30px;
+  font-family: Helvetica;
+  position: absolute;
+  left: 154px;
+  top: 375px;
+}
+
+

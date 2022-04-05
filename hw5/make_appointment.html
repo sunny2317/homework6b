@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title>HealthConnect Portal</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script src="hw6.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div class="rectangle"></div>
+
+		<div1><b>Health</b></div1>
+		<div2><b>Connect</b></div2>
+
+		<home><a href="home.html" style="color:white">Home</a></home>
+		<appointments><a href="appointments.html" style="color:white">Appointments</a></appointments>
+		<history>History</history>
+		<results><a href = "results.html" style="color:white">Results</a></results>
+
+		<div3><b>COVID-19 Testing Appointments</b>
+		</div3>
+
+		<div4><b>Showing available times for next week: <greentext> Starting Monday, March 22nd</greentext></b><br>(note: All COVID-19 testing will take place at TCS Hall)<br>
+<br>
+
+			<form action="/action_page.php">
+				  <label for="dates">Choose a date:</label>
+				  <select onchange="getDates()" name="dates" id="dates">
+				    <option value="Monday, March 22nd">Monday, March 22nd</option> 
+				    <option value="Tuesday, March 23rd">Tuesday, March 23rd</option>
+				    <option value="Wednesday, March 24th">Wednesday, March 24th</option>
+				    <option value="Thursday, March 25th">Thursday, March 25th</option>
+				    <option value="Friday, March 26th">Friday, March 26th</option>
+				  </select>
+				 <br><br>
+				  
+				</form>
+				<form action="testing_appointment_details.html">
+				  <label for="times">Choose a time:</label>
+				  <select onchange="getTimes()" id="times">
+				    <option value="10:00 AM">10:00 AM</option>
+				    <option value="11:00 AM">11:00 AM</option>
+				    <option value="11:15 AM">11:15 AM</option>
+				    <option value="1:00 PM">1:00 PM</option>
+				    <option value="2:30 PM">2:30 PM</option>
+				    <option value="2:45 PM">2:45 PM</option>
+				  </select>
+				 <br><br>
+
+				 <a href="testing_appointment_details.html"><input type="submit" value="submit"/></a>
+				</form>
+
+
+			<p> The day that you selected is:
+        		<span class="date"></span>
+    		</p> 
+    		<p> The time that you selected is:
+        		<span class="time"></span>
+    		</p> 
+
+
+    		<!--
+			<button onclick="getDates()"> Date </button> <button onclick="getTimes()"> Times </button><br>
+		-->
+
+			<!--
+			     
+			   	<script type="text/javascript">
+			    function getDates() {
+			        selectElement = document.querySelector('#dates');
+			        date = selectElement.value;
+			        document.querySelector('.date').textContent = date;
+			    }
+
+			    function getTimes() {
+			        selectElement = document.querySelector('#times');
+			        time = selectElement.value;
+			        document.querySelector('.time').textContent = time;
+			    }
+
+			    </script>
+				
+	<script src=hw6.js“ type="text/javascript"></script>	
+			-->
+		</div4>
+
+	</body> 
+</html>
